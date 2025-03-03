@@ -12,13 +12,13 @@ function App() {
   const histogramHeight = 200;
   const columns: (keyof Log)[] = ["Time", "Event"];
 
-  // ✅ State to track available height
+  // State to track available height
   const [tableHeight, setTableHeight] = useState(
     window.innerHeight - (histogramHeight + 32),
   );
 
   useEffect(() => {
-    // ✅ Function to update height dynamically
+    // Function to update height dynamically
     const handleResize = () => {
       setTableHeight(window.innerHeight - (histogramHeight + 32)); // Adjust table height dynamically
     };

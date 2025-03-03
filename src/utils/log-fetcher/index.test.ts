@@ -1,4 +1,4 @@
-import { LogFetcher } from "../log-fetcher"; // Adjust path if needed
+import { LogFetcher } from "../log-fetcher";
 
 global.fetch = jest.fn();
 

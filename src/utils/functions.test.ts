@@ -1,4 +1,4 @@
-import { getJsonLineCount } from "./functions"; // Adjust path if needed
+import { getJsonLineCount } from "./functions";
 
 describe("getJsonLineCount", () => {
   it("should return correct line count for a simple object", () => {

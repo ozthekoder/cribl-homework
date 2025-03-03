@@ -3,7 +3,7 @@ import { LogFetcher } from ".";
 import { Log } from "../types";
 
 // Buffer for logs before sending to the main thread
-export let logBuffer: Log[] = []; // ✅ Now accessible in tests
+export let logBuffer: Log[] = []; // Now accessible in tests
 const flushInterval = 200; // Throttle interval
 const batchSize = 1000; // Logs should be sent in fixed-size chunks
 let flushTimer: NodeJS.Timeout | null = null;
@@ -21,7 +21,7 @@ export const flushLogs = () => {
   isFlushing = false;
 
   if (logBuffer.length === 0) {
-    stopFlushTimer(); // ✅ Stop the timer if all logs are sent
+    stopFlushTimer(); // Stop the timer if all logs are sent
   }
 };
 // Start the interval-based log sender (ensures steady pacing)
@@ -44,13 +44,13 @@ export const fetcher = new LogFetcher({
   batchSize, // Ensures logs are processed in chunks
   chunkSize: 8 * 1024, // Read in chunks of 8KB
   onLogs: (logs: Log[]) => {
-    logBuffer.push(...logs); // ✅ Add logs to buffer
+    logBuffer.push(...logs); // Add logs to buffer
 
     if (logBuffer.length >= batchSize && !flushTimer) {
-      flushLogs(); // ✅ Immediately send first batch
+      flushLogs(); // Immediately send first batch
     }
 
-    startFlushTimer(); // ✅ Start interval for remaining logs
+    startFlushTimer(); // Start interval for remaining logs
   },
 });
 
@@ -61,6 +61,6 @@ self.onmessage = (e) => {
 
 // Ensure all logs are flushed before the worker stops
 self.onclose = () => {
-  flushLogs(); // ✅ Send any remaining logs immediately
+  flushLogs(); // Send any remaining logs immediately
   stopFlushTimer();
 };
