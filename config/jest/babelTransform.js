@@ -24,6 +24,9 @@ module.exports = babelJest.createTransformer({
       },
     ],
   ],
+  plugins: [
+    require.resolve('babel-plugin-transform-import-meta'), // ✅ Add this plugin
+  ],
   babelrc: false,
   configFile: false,
 });

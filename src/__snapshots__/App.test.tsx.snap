@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should match snapshot 1`] = `
+<div
+  class="css-m08lup"
+>
+  <div
+    class="css-plwj0c"
+    height="200px"
+  >
+    <div
+      data-testid="mock-echarts"
+    />
+  </div>
+  <div
+    class="css-16g2hxh"
+    height="calc(100% - 200px)"
+  >
+    <div
+      class="css-10b489u"
+      role="table"
+    >
+      <div
+        class="css-1h2hj7p"
+      >
+        <div
+          class="css-1vvyagg"
+          width="200px"
+        >
+          Time
+        </div>
+        <div
+          class="css-1e99wpz"
+          width="calc(100% - 200px)"
+        >
+          Event
+        </div>
+      </div>
+      <div
+        class="css-10b489u"
+        data-testid="virtualized-container"
+        style="height: 568px;"
+      >
+        <div
+          class="css-1eyo6l6"
+        >
+          <div
+            class="css-9db80r"
+            data-testid="virtualized-rows"
+          >
+            <div
+              class="css-xspo3w"
+              data-expanded="false"
+              data-index="0"
+              height="32"
+              role="row"
+            >
+              <div
+                class="css-ioidyq"
+                width="200px"
+              >
+                <div
+                  class="css-1li7dol"
+                >
+                  ❯
+                </div>
+                <div
+                  class="css-vchpx1"
+                >
+                  2024-03-01 12:00:00
+                </div>
+              </div>
+              <div
+                class="css-16zk19m"
+                width="calc(100% - 200px)"
+              >
+                <div
+                  class="css-vchpx1"
+                >
+                  {"message":"Log 0"}
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-1hiimad"
+              data-expanded="false"
+              data-index="1"
+              height="32"
+              role="row"
+            >
+              <div
+                class="css-ioidyq"
+                width="200px"
+              >
+                <div
+                  class="css-1li7dol"
+                >
+                  ❯
+                </div>
+                <div
+                  class="css-vchpx1"
+                >
+                  2024-03-01 12:01:00
+                </div>
+              </div>
+              <div
+                class="css-16zk19m"
+                width="calc(100% - 200px)"
+              >
+                <div
+                  class="css-vchpx1"
+                >
+                  {"message":"Log 1"}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

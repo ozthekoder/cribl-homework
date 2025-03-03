@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VirtualizedList Component should match snapshot 1`] = `
+<div
+  class="css-10b489u"
+  data-testid="virtualized-container"
+  style="height: 500px;"
+>
+  <div
+    class="css-lg0a9e"
+  >
+    <div
+      class="css-9db80r"
+      data-testid="virtualized-rows"
+    >
+      <div
+        data-expanded="false"
+        data-index="0"
+        data-testid="row-0"
+        style="height: 32px;"
+      >
+        2024-03-01 12:00:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="1"
+        data-testid="row-1"
+        style="height: 32px;"
+      >
+        2024-03-01 12:01:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="2"
+        data-testid="row-2"
+        style="height: 32px;"
+      >
+        2024-03-01 12:02:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="3"
+        data-testid="row-3"
+        style="height: 32px;"
+      >
+        2024-03-01 12:03:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="4"
+        data-testid="row-4"
+        style="height: 32px;"
+      >
+        2024-03-01 12:04:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="5"
+        data-testid="row-5"
+        style="height: 32px;"
+      >
+        2024-03-01 12:05:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="6"
+        data-testid="row-6"
+        style="height: 32px;"
+      >
+        2024-03-01 12:06:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="7"
+        data-testid="row-7"
+        style="height: 32px;"
+      >
+        2024-03-01 12:07:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="8"
+        data-testid="row-8"
+        style="height: 32px;"
+      >
+        2024-03-01 12:08:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="9"
+        data-testid="row-9"
+        style="height: 32px;"
+      >
+        2024-03-01 12:09:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="10"
+        data-testid="row-10"
+        style="height: 32px;"
+      >
+        2024-03-01 12:10:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="11"
+        data-testid="row-11"
+        style="height: 32px;"
+      >
+        2024-03-01 12:11:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="12"
+        data-testid="row-12"
+        style="height: 32px;"
+      >
+        2024-03-01 12:12:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="13"
+        data-testid="row-13"
+        style="height: 32px;"
+      >
+        2024-03-01 12:13:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="14"
+        data-testid="row-14"
+        style="height: 32px;"
+      >
+        2024-03-01 12:14:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="15"
+        data-testid="row-15"
+        style="height: 32px;"
+      >
+        2024-03-01 12:15:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="16"
+        data-testid="row-16"
+        style="height: 32px;"
+      >
+        2024-03-01 12:16:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="17"
+        data-testid="row-17"
+        style="height: 32px;"
+      >
+        2024-03-01 12:17:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="18"
+        data-testid="row-18"
+        style="height: 32px;"
+      >
+        2024-03-01 12:18:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="19"
+        data-testid="row-19"
+        style="height: 32px;"
+      >
+        2024-03-01 12:19:00
+      </div>
+      <div
+        data-expanded="false"
+        data-index="20"
+        data-testid="row-20"
+        style="height: 32px;"
+      >
+        2024-03-01 12:20:00
+      </div>
+    </div>
+  </div>
+</div>
+`;

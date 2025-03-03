@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column Component should match snapshot 1`] = `
+<div
+  class="css-c0d617"
+  width="300px"
+>
+  Snapshot Test
+</div>
+`;
